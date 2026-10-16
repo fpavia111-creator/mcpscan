@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "failOn": "high",
+  "requireAllowList": false,
+  "allow": {
+    "servers": [],
+    "packages": ["@modelcontextprotocol/*"],
+    "hosts": ["*.githubcopilot.com", "mcp.linear.app"],
+    "skills": []
+  },
+  "deny": {
+    "servers": [],
+    "packages": ["*-mcp-free-*"],
+    "hosts": ["*.ngrok.io", "*.ngrok-free.app", "*.trycloudflare.com"],
+    "skills": []
+  },
+  "ignore": [
+    { "rule": "MCP018" }
+  ],
+  "severityOverrides": {
+    "MCP014": "low"
+  }
+}
