@@ -5,7 +5,7 @@ description: Audit installed MCP servers and agent skills for supply-chain risk 
 
 # mcpscan — MCP & skill security audit
 
-Use the `mcpscan` CLI (from this repo, or `npx mcpscan` once published) to scan the user's machine and project.
+Use the `mcpscan` CLI (from this repo, or `npx @kurtfrancisco/mcpscan` once published) to scan the user's machine and project.
 
 ## Steps
 

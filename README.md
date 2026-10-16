@@ -1,7 +1,7 @@
 # mcpscan — MCP server & agent-skill supply-chain scanner (MVP)
 
 [![CI](https://github.com/fpavia111-creator/mcpscan/actions/workflows/ci.yml/badge.svg)](https://github.com/fpavia111-creator/mcpscan/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/mcpscan.svg)](https://www.npmjs.com/package/mcpscan)
+[![npm](https://img.shields.io/npm/v/@kurtfrancisco/mcpscan.svg)](https://www.npmjs.com/package/@kurtfrancisco/mcpscan)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.fpavia111--creator%2Fmcpscan-blue)](https://registry.modelcontextprotocol.io)
 
@@ -12,13 +12,13 @@
 **Install** (Node.js ≥ 18):
 
 ```bash
-npm install -g mcpscan   # or: npx mcpscan scan
+npm install -g @kurtfrancisco/mcpscan   # or: npx @kurtfrancisco/mcpscan scan
 ```
 
 **Claude Code**
 
 ```bash
-claude mcp add mcpscan -- npx -y mcpscan@0.1.0 mcp
+claude mcp add mcpscan -- npx -y @kurtfrancisco/mcpscan@0.1.0 mcp
 ```
 
 **Cursor** — add to `~/.cursor/mcp.json` (global) or `.cursor/mcp.json` (project). The same snippet works for Claude Desktop, VS Code and Windsurf:
