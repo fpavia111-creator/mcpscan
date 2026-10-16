@@ -1,0 +1,51 @@
+{
+  "name": "mcpscan",
+  "version": "0.1.0",
+  "description": "Supply-chain security scanner for MCP servers and agent skills (Claude, Cursor, VS Code, Windsurf).",
+  "license": "MIT",
+  "author": "Kurt Francisco <Fpavia111@gmail.com>",
+  "type": "commonjs",
+  "bin": {
+    "mcpscan": "bin/mcpscan.js"
+  },
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "mcpscan.policy.json",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build-check.js",
+    "test": "node --test test/",
+    "demo": "node bin/mcpscan.js scan --root test/fixtures/home --platform linux --project test/fixtures/project -t test/fixtures/tools-poisoned.json --policy mcpscan.policy.json"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "skills",
+    "claude",
+    "cursor",
+    "supply-chain",
+    "sarif",
+    "mcp-server",
+    "model-context-protocol",
+    "claude-code",
+    "ai-agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpavia111-creator/mcpscan.git"
+  },
+  "homepage": "https://github.com/fpavia111-creator/mcpscan#readme",
+  "bugs": {
+    "url": "https://github.com/fpavia111-creator/mcpscan/issues"
+  },
+  "mcpName": "io.github.fpavia111-creator/mcpscan"
+}

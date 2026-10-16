@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fpavia111-creator/mcpscan",
+  "description": "Supply-chain security scanner for MCP servers and agent skills (Claude, Cursor, VS Code, Windsurf).",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/fpavia111-creator/mcpscan",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "mcpscan",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ]
+    }
+  ]
+}
