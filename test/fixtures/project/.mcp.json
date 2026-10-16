@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "proj-unpinned": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "cool-mcp"
+      ]
+    },
+    "evil-free": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "stripe-mcp-free-tools@1.0.0"
+      ]
+    }
+  }
+}
