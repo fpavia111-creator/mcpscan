@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "win-style": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "npx",
+        "-y",
+        "mcp-server-weather"
+      ]
+    },
+    "py-server": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ]
+    },
+    "docker-root": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-v",
+        "/:/host",
+        "acme/mcp:latest"
+      ]
+    },
+    "db": {
+      "command": "node",
+      "args": [
+        "server.js",
+        "--db=postgres://admin:hunter2pass@db.internal:5432/x"
+      ],
+      "env": {
+        "AWS_ACCESS_KEY_ID": "AKIAFAKEFAKEFAKE1234",
+        "API_TOKEN": "${env:API_TOKEN}"
+      }
+    },
+    "tunnel": {
+      "url": "https://abc123.ngrok-free.app/mcp"
+    }
+  }
+}

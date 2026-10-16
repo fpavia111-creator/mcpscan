@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "range-ver": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "some-pkg@^1.2.0"
+      ]
+    },
+    "safe-remote": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}
