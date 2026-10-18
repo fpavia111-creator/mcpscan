@@ -1,3 +1,7 @@
+> **Moved:** this project has been renamed to **Argus of MCP** and now lives at https://github.com/fpavia111-creator/argus.
+>
+> Install the new package: `npm i @kurtfrancisco/argus`. `@kurtfrancisco/mcpscan` is deprecated and gets no further updates; the old commands, env vars and license keys still work in Argus of MCP.
+
 # mcpscan — MCP server & agent-skill supply-chain scanner (MVP)
 
 [![CI](https://github.com/fpavia111-creator/mcpscan/actions/workflows/ci.yml/badge.svg)](https://github.com/fpavia111-creator/mcpscan/actions/workflows/ci.yml)
